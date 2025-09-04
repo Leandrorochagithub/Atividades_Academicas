@@ -1,19 +1,17 @@
-Qual o perfil do Engenheiro de Dados e do DBA no Brasil em 2025?
+## Ética e IA: Comparativo dos casos COMPAS e Amazon
 
-Para responder a essa pergunta, nosso grupo analisou dezenas de vagas para essas áreas em São Paulo e Brasília. O resultado é um retrato claro do que o mercado está buscando!
+**Um algoritmo pode ser injusto?** Analisamos o caso do sistema de recrutamento da Amazon e o do sistema de justiça criminal (COMPAS) utilizado em alguns Estados dos EUA, que se revelaram enviesados contra determinados grupos da sociedade.
 
-Principais Hard Skills para Engenheiros de Dados:
-1. Python
-2. SQL
-3. Cloud (AWS/GCP/Azure)
+**O Problema**
+As Inteligências Artificiais, treinadas com dados históricos de sistemas preconceituosos, aprenderam a "perpetuar" a penalização a indivíduos baseando-se em seus gêneros e suas raças. 
 
-Principais Hard Skills para DBA:
-1. SGBD
-2. SQL
-3. Modelagem de Dados
+**Nossa Análise**
+Os sistemas operavam como uma "black box", sem transparência, com claro impacto social negativo.
 
-Soft Skill mais Citada: Comunicação e Pensamento Analítico.
+**Nosso Posicionamento**
+A decisão da Amazon de descontinuar o sistema foi correta. Recomendamos que futuras ferramentas de recrutamento com IA passem por auditorias de viés rigorosas antes do lançamento, e sejam supervisionadas por um comitê de ética multidisciplinar.
+O Software COMPAS continua sendo usando em muitos casos, com as falhas sendo justificadas pela empresa desenvolvedora, o que revela a complexidade de lidar com esse tipo de ferramenta em instituições públicas.
 
-Uma tendência clara que observamos é a valorização salarial significativa do Engenheiro de Dados, que atua como um "arquiteto" de novas soluções.
+A inovação não pode ir de encontro à equidade. Portanto, como podemos, enquanto profissionais de tecnologia, garantir que nossas criações sejam justas?
 
-Quer ver a análise completa, incluindo faixas salariais detalhadas, competências e nosso plano de estudos baseado nos dados? Confira nosso relatório detalhado!
+👉 Análise Completa: No documento.
