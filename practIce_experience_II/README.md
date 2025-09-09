@@ -1,18 +1,15 @@
-## Qual o perfil do Engenheiro de Dados e do DBA no Brasil em 2025?
+## Qual o perfil do Engenheiro de Dados e do Desenvolvedor Full Stack no Brasil em 2025?
 
-Para responder a essa pergunta, nosso grupo analisou dezenas de vagas para essas áreas em São Paulo e Brasília. O resultado é um retrato claro do que o mercado está buscando!
+Para responder a essa pergunta, nosso grupo analisou dezenas de vagas para essas áreas. O resultado é um retrato claro do que o mercado está buscando!
 
-**Principais Hard Skills para Engenheiros de Dados:**
-1. Python
-2. SQL
-3. Cloud (AWS/GCP/Azure)
+**Principais Hard Skills**
+1. Python (Eng. de Dados)
+2. Ecossistema Big Data: Apache Spark, Hadoop (Eng. de Dados)
+3. Linguagens Front-End: HTML, CSS, JavaScript (Full Stack)
+4. Frameworks Front-End: React, Vue.js ou Angular (Full Stack)
 
-**Principais Hard Skills para DBA:**
-1. SGBD
-2. SQL
-3. Modelagem de Dados
 
-**Soft Skill mais Citada:** Comunicação e Pensamento Analítico.
+**Soft Skill mais Citada:** Comunicação, trabalho em equipe e Pensamento Analítico.
 
 Uma tendência clara que observamos é a valorização salarial significativa do Engenheiro de Dados, que atua como um "arquiteto" de novas soluções.
 
