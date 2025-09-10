@@ -8,4 +8,7 @@ O objetivo é claro: garantir o direito à educação de qualidade e, ao mesmo t
 
 Acreditamos que a tecnologia pode e deve ser uma força para o bem. Junte-se a nós nesta missão!
 
+
+<img width="1160" height="708" alt="educanet" src="https://github.com/user-attachments/assets/ed604736-af0e-42b4-b654-904e8cb6591f" />
+
 #InclusaoDigital #Educacao #Sustentabilidade #ImpactoSocial
