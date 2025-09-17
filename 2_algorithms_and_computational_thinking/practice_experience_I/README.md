@@ -58,3 +58,9 @@ Variação % = (preço_atual - preço_anterior / preço_anterior) * 100
 • preço atual;
 • variação percentual (%);
 • situação (AUMENTO, QUEDA ou ESTÁVEL).
+
+## Entrega
+
+**- 1 arquivo em C: Atividade1_CestaBasica.c**
+
+**- 1 arquivo em pseudocódigo: pseudocode_Atividade1_CestaBasica**
