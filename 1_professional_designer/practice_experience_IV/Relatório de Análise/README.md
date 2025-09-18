@@ -1,5 +1,7 @@
 ## Projeto EducaNet Sustentável
 
+<img width="1221" height="707" alt="Captura de tela 2025-09-08 215414" src="https://github.com/user-attachments/assets/9bb725e0-dfeb-4ef0-857f-c320925c6064" />
+
 **Visão Geral**
 Esta iniciativa é um projeto de impacto social concebido para enfrentar dois dos maiores desafios enfrentados por jovens em comunidades periféricas no Brasil: a desigualdade no acesso à educação digital e a falta de engajamento com a sustentabilidade ambiental.
 
