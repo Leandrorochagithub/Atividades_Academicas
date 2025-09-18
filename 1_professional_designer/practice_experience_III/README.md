@@ -14,4 +14,6 @@ O Software COMPAS continua sendo usando em muitos casos, com as falhas sendo jus
 
 A inovação não pode ir de encontro à equidade. Portanto, como podemos, enquanto profissionais de tecnologia, garantir que nossas criações sejam justas?
 
+<img width="941" height="641" alt="Captura de tela 2025-09-18 200653" src="https://github.com/user-attachments/assets/496e56a7-82ff-4ea9-bbed-5706624cc66e" />
+
 👉 Análise Completa: No documento.
