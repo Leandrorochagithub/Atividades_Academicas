@@ -64,3 +64,6 @@ Variação % = (preço_atual - preço_anterior / preço_anterior) * 100
 **- 1 arquivo em C: Atividade1_CestaBasica.c**
 
 **- 1 arquivo em pseudocódigo: pseudocode_Atividade1_CestaBasica**
+
+<img width="671" height="830" alt="Captura de tela 2025-09-17 174046" src="https://github.com/user-attachments/assets/cd98d904-f6e9-41b2-96e4-638e7ae4f638" />
+
