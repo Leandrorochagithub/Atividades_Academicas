@@ -7,6 +7,7 @@
 * Hard Skills, Soft Skills e Faixa Salarial
 * Análise de Competências, análise Salarial, e análise de Tendências
 * Plano de Ação
+* **Relatório Técnico**
 
 ## Tecnologias utilizadas
 * Plataformas de divulgação de vagas
