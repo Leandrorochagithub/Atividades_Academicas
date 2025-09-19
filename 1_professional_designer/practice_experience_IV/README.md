@@ -1,4 +1,23 @@
-## E se a falta de internet não fosse mais uma barreira para a educação? E se cada lição aprendida também ajudasse a construir um futuro mais verde? 🌱
+# PROJETO: Canvas de Projeto de Impacto Social 
+### Definição do Problema
+* Definam o desafio social. Lembrem-se da discussão sobre Desigualdades digitais e perguntem-se: quem são os mais afetados? Quais as consequências?
+
+### Especificações Técnicas
+* A Solução Proposta
+* Público-alvo
+* Inclusão e Acessibilidade
+* Impacto Social Esperado
+* Sustentabilidade do Projeto
+
+### Tecnologias utilizadas
+* Word, Docs
+* Power Point
+* Git
+
+### Aprendizado
+* Como elaborar o escopo de um projeto
+
+# E se a falta de internet não fosse mais uma barreira para a educação? E se cada lição aprendida também ajudasse a construir um futuro mais verde? 🌱
 
 No Brasil, a desigualdade digital ainda impede que milhões de estudantes de escolas públicas tenham acesso contínuo ao conhecimento. Pensando nisso, criamos o **EducaNet Sustentável**, um projeto que une o melhor de dois mundos: educação acessível e consciência ambiental!
 
