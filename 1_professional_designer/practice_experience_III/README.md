@@ -1,4 +1,23 @@
-## Ética e IA: Comparativo dos casos COMPAS e Amazon
+# PROJETO: Estudo de caso - Ética e IA
+### Definição do Problema
+* Quais os limites da responsabilidade ética na Inteligência Artificial?
+
+### Especificações Técnicas - Método de Análise (framework)
+* Viés e Justiça
+* Transparência e Explicabilidade
+* Impacto Social e Direitos
+* Responsabilidade e Governança
+* Posicionamento
+* **Relatório Técnico**
+
+### Tecnologias utilizadas
+* Mecaninsmos de busca na Web
+* Word, Docs
+
+### Aprendizado
+* Importância do planejamento e estudo do negócio
+  
+# Ética e IA: Comparativo dos casos COMPAS e Amazon
 
 **Um algoritmo pode ser injusto?** Analisamos o caso do sistema de recrutamento da Amazon e o do sistema de justiça criminal (COMPAS) utilizado em alguns Estados dos EUA, que se revelaram enviesados contra determinados grupos da sociedade.
 
