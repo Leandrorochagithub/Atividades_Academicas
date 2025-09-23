@@ -1,14 +1,12 @@
 # PROJETO: ChatBot de atendimento
 
 ## Definição do problema
-
 * Desenvolver um programa funcional em linguagem C, aplicando corretamente algumas estruturas de repetição (como while, for, do-while) e alguma estrutura de decisão (if, else, switch), com base em um tema do cotidiano.A proposta visa exercitar a lógica e o pensamento computacional por meio da resolução de problemas reais, explorando a criatividade e a interação com o usuário.
 
-**Especificações Técnicas**
-
-• Suporte
-• Financeiro...
-• Sair
+## Especificações Técnicas
+* Suporte
+* Financeiro...
+* Sair
 
 **O que Seu Algoritmo Deve Fazer**
 
