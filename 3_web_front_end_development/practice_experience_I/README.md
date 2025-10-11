@@ -38,20 +38,20 @@
 
 * **Páginas Obrigatórias**
 
--Página inicial (index.html) que fala sobre a organização, com informações de contato;
+	- Página inicial (index.html) que fala sobre a organização, com informações de contato;
 
--Projetos sociais (projetos.html), abordando o voluntariado e como doar;
+	- Projetos sociais (projetos.html), abordando o voluntariado e como doar;
 
--Cadastro (cadastro.html).
+	- Cadastro (cadastro.html).
 
 * **Formulários Complexos e Interativos**
--Criar um formulário na página (cadastro.html) utilizando tipos de input HTML5 (Nome Completo, e-mail, CPF, telefone, Data de Nascimento, Endereço, CEP, Cidade e Estado);
+	- Criar um formulário na página (cadastro.html) utilizando tipos de input HTML5 (Nome Completo, e-mail, CPF, telefone, Data de Nascimento, Endereço, CEP, Cidade e Estado);
 
--Implementar validação nativa com atributos HTML5;
+	- Implementar validação nativa com atributos HTML5;
 
--Utilizar agrupamento lógico;
+	- Utilizar agrupamento lógico;
 
--Aplicar máscaras de input para CPF, telefone, CEP.
+	- Aplicar máscaras de input para CPF, telefone, CEP.
 
 
 ## Tecnologias utilizadas
@@ -72,17 +72,12 @@
 - Estrutura de pastas organizada (pastas, HTML e imagens);
 - Arquivos HTML validados (W3C Validator).
 
-*Assets e Recursos
+* Assets e Recursos
 
 ## Estrutura básica
 
-practice_experience_I/
-|__ projeto_ong/
-	|__ imagens/
-	|__ index.html
-	|__ projetos.html
-	|__ cadastros.html
 
+<img width="508" height="421" alt="Captura de tela 2025-10-11 112942" src="https://github.com/user-attachments/assets/369a6c9f-6005-48aa-86b0-4d5cc5bcf1a8" />
 
 ## Aprendizado
 
