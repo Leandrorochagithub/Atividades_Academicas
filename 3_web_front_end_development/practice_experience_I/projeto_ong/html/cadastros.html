@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Voluntário - ONG Vidas Conectadas</title>
+    <meta name="description" content="Faça seu cadastro e junte-se à nossa equipe de voluntários. Preencha o formulário e faça parte da mudança!">
+    <link rel="stylesheet" href="../css/style.css">
+    
+    </head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="../imagens/logo.png" alt="Logo da ONG (planeta envolto por duas mãos)" width="100">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="cadastro.html">Seja um Voluntário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="formulario-cadastro">
+            <h1>Torne-se um Voluntário</h1>
+            <p>Ficamos felizes com seu interesse! Preencha o formulário abaixo para se cadastrar em nossa base de voluntários. Entraremos em contato assim que surgir uma oportunidade com o seu perfil.</p>
+
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    
+                    <div>
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" required minlength="3" placeholder="Seu nome completo">
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
+                    </div>
+
+                    <div>
+                        <label for="cpf">CPF:</label>
+                        <input type="text" id="cpf" name="cpf" required placeholder="000.000.000-00" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                    </div>
+                    
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000" pattern="\(\d{2}\)\s\d{5}-\d{4}">
+                    </div>
+
+                    <div>
+                        <label for="nascimento">Data de Nascimento:</label>
+                        <input type="date" id="nascimento" name="nascimento" required>
+                    </div>
+                </fieldset>
+<br>
+                <fieldset>
+                    <legend>Endereço</legend>
+
+                    <div>
+                        <label for="cep">CEP:</label>
+                        <input type="text" id="cep" name="cep" required placeholder="00000-000" pattern="\d{5}-\d{3}">
+                    </div>
+
+                    <div>
+                        <label for="endereco">Endereço (Rua e Número):</label>
+                        <input type="text" id="endereco" name="endereco" required>
+                    </div>
+
+                    <div>
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade" required>
+                    </div>
+
+                    <div>
+                        <label for="estado">Estado:</label>
+                        <input type="text" id="estado" name="estado" required>
+                    </div>
+                </fieldset>
+<br>
+                <button type="submit">Enviar Cadastro</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Entre em Contato</h2>
+        <address>
+            <p>Email: <a href="mailto:contato@projetoficticiovidasconectadas.org">contato@projetoficticiovidasconectadas.org</a></p>
+            <p>Telefone: <a href="tel:+5511999998888">(61) 99999-8888</a></p>
+        </address>
+        <p>&copy; 2025 ONG Vidas Conectadas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Função para aplicar a máscara de CPF (000.000.000-00)
+        document.getElementById('cpf').addEventListener('input', function (e) {
+            // \D: "qualquer caractere que não seja um dígito numérico", \g: procure no texto inteiro e '': Significa "substitua por nada", ou seja, apague
+            let value = e.target.value.replace(/\D/g, ''); 
+
+            // (\d{3}): Encontre e guarde um grupo de 3 dígitos. (\d): encontre e guarde 1 dígito.
+            value = value.replace(/(\d{3})(\d)/, '$1.$2');
+
+            // $1: Insira aqui o que foi capturado no primeiro parêntese (os 3 dígitos). .: Insira o caractere de ponto. $2: Insira aqui o que foi capturado no segundo parêntese (o 1 dígito).
+            value = value.replace(/(\d{3})(\d)/, '$1.$2');
+
+            
+            value = value.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+            e.target.value = value;
+        });
+
+        // Função para aplicar a máscara de Telefone ((00) 00000-0000)
+        document.getElementById('telefone').addEventListener('input', function (e) {
+            let value = e.target.value.replace(/\D/g, '');
+            value = value.replace(/^(\d{2})(\d)/g, '($1) $2');
+            value = value.replace(/(\d{5})(\d)/, '$1-$2');
+            e.target.value = value;
+        });
+
+        // Função para aplicar a máscara de CEP (00000-000)
+        document.getElementById('cep').addEventListener('input', function (e) {
+            let value = e.target.value.replace(/\D/g, '');
+            value = value.replace(/^(\d{5})(\d)/, '$1-$2');
+            e.target.value = value;
+        });
+    </script>
+
+</body>
+</html>
