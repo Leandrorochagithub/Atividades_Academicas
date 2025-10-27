@@ -1,0 +1,24 @@
+/* OBJETIVO: Estilo do botão de troca de tema */
+
+.btn-theme {
+    background-color: var(--cor-fundo-medio);
+    color: var(--cor-texto-principal);
+    border: 2px solid var(--cor-primaria);
+    border-radius: 50%; /* Botão circular */
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    padding: 0;
+}
+
+.btn-theme:hover,
+.btn-theme:focus {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    outline: none;
+}

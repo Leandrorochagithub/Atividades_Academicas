@@ -1,0 +1,48 @@
+/* * ARQUIVO: /components/_header.css 
+ * OBJETIVO: Estilo do cabeçalho (Flexbox)
+ */
+
+/* Requisito: "Utilizar flexbox para componentes internos" */
+.main-header {
+    background-color: var(--cor-fundo-medio);
+    padding: var(--espaco-sm) 0;
+    box-shadow: var(--box-shadow);
+    border-bottom: 2px solid var(--cor-primaria);
+}
+
+.main-header .container {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--espaco-sm) 5%; /* Padding interno no container do header */
+}
+
+.logo-link img {
+    width: 120px; /* Um tamanho bom para o logo */
+}
+
+.main-nav ul {
+    display: flex;
+    gap: var(--espaco-md); /* Espaçamento entre os links */
+}
+
+.main-nav a {
+    font-size: var(--font-size-md);
+    font-weight: 600;
+    color: var(--cor-primaria);
+    padding: var(--espaco-xs) var(--espaco-sm);
+    border-radius: var(--border-radius);
+    transition: all 0.2s ease-in-out;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+}
+
+/* Oculta o botão do menu hambúrguer por enquanto */
+.menu-hamburger {
+    display: none; 
+}

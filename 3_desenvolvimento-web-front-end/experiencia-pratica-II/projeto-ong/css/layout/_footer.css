@@ -1,0 +1,29 @@
+/* OBJETIVO: Estilo do rodapé (Flexbox) */
+
+.main-footer {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    padding: var(--espaco-xl) 0;
+    margin-top: var(--espaco-xl); /* Separa o rodapé do conteúdo acima */
+}
+
+.main-footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--espaco-lg);
+    padding: 0 5%;
+}
+
+.main-footer h2 {
+    color: var(--cor-texto-claro);
+    font-size: var(--font-size-lg);
+}
+
+.main-footer address a {
+    color: var(--cor-texto-claro);
+    text-decoration: underline;
+    display: block; /* Links em linhas separadas */
+    margin-bottom: var(--espaco-xs);
+}

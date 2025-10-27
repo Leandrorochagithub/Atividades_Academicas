@@ -1,0 +1,16 @@
+/* OBJETIVO: Estrutura principal do site (Grid) */
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+/* Um container para centralizar o conteúdo e limitar a largura em telas grandes, melhorando a leitura. */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--espaco-lg) 0; /* Espaçamento vertical */
+}

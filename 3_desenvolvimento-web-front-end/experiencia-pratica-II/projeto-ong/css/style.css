@@ -1,0 +1,19 @@
+/* OBJETIVO: Importar todos os módulos de CSS em ordem */
+
+/* 1. Base: Variáveis, Reset e Tipografia */
+@import url('base/_variables.css');
+@import url('base/_reset.css');
+@import url('base/_typography.css');
+
+/* 2. Layout: Estrutura principal, Grid, Cabeçalho e Rodapé */
+@import url('layout/_main-layout.css');
+/* @import url('layout/_grid.css'); */
+@import url('layout/_footer.css');
+
+/* 3. Components: Peças reutilizáveis da interface */
+@import url('components/_header.css');
+@import url('components/_buttons.css');
+@import url('components/_forms.css');
+/* @import url('components/_cards.css'); */ 
+
+@import url('components/_theme-toggle.css');

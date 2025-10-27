@@ -1,0 +1,29 @@
+/* OBJETIVO: Resetar estilos padrão do navegador*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não afetem o tamanho final */
+}
+
+body {
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-texto-principal);
+    line-height: 1.6; /* Melhora a legibilidade */
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%; /* Imagens responsivas por padrão */
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+ul {
+    list-style: none;
+}

@@ -1,0 +1,60 @@
+/* OBJETIVO: Estilo do formulário de cadastro */
+
+form {
+    background-color: var(--cor-fundo-medio);
+    padding: var(--espaco-lg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    padding: var(--espaco-md);
+    margin-bottom: var(--espaco-md);
+}
+
+legend {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--cor-primaria);
+    padding: 0 var(--espaco-xs);
+}
+
+/* Container para cada par de label + input */
+.form-group {
+    margin-bottom: var(--espaco-sm);
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: var(--espaco-xs);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="date"] {
+    width: 100%;
+    padding: var(--espaco-sm);
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-md);
+}
+
+.form-group input:focus {
+    outline: 2px solid var(--cor-primaria);
+    border-color: var(--cor-primaria);
+}
+
+/* Requisito: "validação visual" */
+/* Estilo quando o input é válido */
+.form-group input:valid {
+    border-color: var(--cor-sucesso);
+}
+
+/* Estilo quando é inválido (após o usuário interagir) */
+.form-group input:invalid:not(:placeholder-shown) {
+    border-color: var(--cor-erro);
+}
