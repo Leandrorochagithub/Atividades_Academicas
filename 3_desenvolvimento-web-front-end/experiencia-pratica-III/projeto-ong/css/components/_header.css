@@ -5,7 +5,7 @@
 /* Requisito: "Utilizar flexbox para componentes internos" */
 .main-header {
     background-color: var(--cor-fundo-medio);
-    padding: var(--espaco-sm) 0;
+    padding: 0;
     box-shadow: var(--box-shadow);
     border-bottom: 2px solid var(--cor-primaria);
 }
@@ -15,12 +15,18 @@
     flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
     justify-content: space-between;
     align-items: center;
-    padding: var(--espaco-sm) 5%; /* Padding interno no container do header */
+    padding: 0; /* Padding interno no container do header */
 }
 
 .logo-link img {
     width: 120px; /* Um tamanho bom para o logo */
 }
+
+.logo-link:hover{
+    transform: translateY(-4px);
+}
+
+
 
 .main-nav ul {
     display: flex;

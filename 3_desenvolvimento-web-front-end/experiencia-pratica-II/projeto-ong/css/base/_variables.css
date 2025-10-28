@@ -15,7 +15,10 @@
     
     --cor-sucesso: #28a745;     /* Verde (original) */
     --cor-erro: #dc3545;       /* Vermelho (original) */
-    
+    --cor-fundo-sessões-principais: #f0f8ff8b; /* Fundo leve para sessões principais */
+    --cor-fundo-sub-sessões-principais: #f5b80008; /* Fundo leve para sub-sessões principais */
+    --cor-border-sessões-principais: lightblue; /* Borda para sessões principais */
+    --cor-border-sub-sessões-principais: lightpink; /* Borda para
     --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     
     /* 2. TIPOGRAFIA HIERÁRQUICA */

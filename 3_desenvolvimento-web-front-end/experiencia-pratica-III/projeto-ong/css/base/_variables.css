@@ -15,47 +15,28 @@
     
     --cor-sucesso: #28a745;     /* Verde (original) */
     --cor-erro: #dc3545;       /* Vermelho (original) */
-    
+    --cor-fundo-sessões-principais: #f0f8ff8b; /* Fundo leve para sessões principais */
+    --cor-fundo-sub-sessões-principais: #f5b80008; /* Fundo leve para sub-sessões principais */
+    --cor-border-sessões-principais: lightblue; /* Borda para sessões principais */
+    --cor-border-sub-sessões-principais: lightpink; /* Borda para
     --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-
-    /* --- VARIÁVEIS QUE NÃO MUDAM COM O TEMA --- */
-
+    
     /* 2. TIPOGRAFIA HIERÁRQUICA */
-    --font-size-xxl: clamp(2.5rem, 5vw, 4rem);
-    --font-size-xl:  clamp(2rem, 4vw, 3rem);
-    --font-size-lg:  clamp(1.5rem, 3vw, 2.2rem);
-    --font-size-md:  1.125rem;
-    --font-size-sm:  0.9rem;
-    --font-size-xs:  0.75rem;
+    --font-size-xxl: clamp(2.5em, 5vw, 4em); /* Clamp para responsividade */
+    --font-size-xl: clamp(2em, 4vw, 3em);
+    --font-size-lg: clamp(1.5em, 3vw, 2.2em);
+    --font-size-md: 1.125em;
+    --font-size-sm: 0.9em;
+    --font-size-xs: 0.75em;
 
     /* 3. SISTEMA DE ESPAÇAMENTO MODULAR */
-    --espaco-xs: 0.5rem;  /* 8px */
-    --espaco-sm: 1rem;    /* 16px */
-    --espaco-md: 1.5rem;  /* 24px */
-    --espaco-lg: 2rem;    /* 32px */
-    --espaco-xl: 3rem;    /* 48px */
-    --espaco-xxl: 4rem;   /* 64px */
+    --espaco-xs: 0.5em;  /* 8px */
+    --espaco-sm: 1em;    /* 16px */
+    --espaco-md: 1.5em;  /* 24px */
+    --espaco-lg: 2em;    /* 32px */
+    --espaco-xl: 3em;    /* 48px */
+    --espaco-xxl: 4em;   /* 64px */
 
     /* Outras variáveis */
     --border-radius: 4px;
-}
-
-/* * 1.1 PALETA DE CORES (MODO ESCURO) 
- * Quando o body tiver o atributo [data-theme="dark"], 
- * estas variáveis vão sobrescrever as do :root.
- */
-body[data-theme="dark"] {
-    --cor-fundo-claro: #1a202c;
-    --cor-fundo-medio: #2d3748;
-    --cor-texto-principal: #e2e8f0;
-    --cor-texto-claro: #1a202c; /* Texto para botões amarelos */
-    
-    --cor-primaria: #4299e1;
-    --cor-secundaria: #38b2ac;
-    --cor-suporte: #facc15;
-    
-    --cor-sucesso: #4ade80;
-    --cor-erro: #f87171;
-    
-    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

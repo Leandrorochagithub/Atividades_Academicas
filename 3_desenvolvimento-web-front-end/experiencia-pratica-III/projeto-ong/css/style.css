@@ -6,7 +6,7 @@
 @import url('base/_typography.css');
 
 /* 2. Layout: Estrutura principal, Grid, Cabeçalho e Rodapé */
-@import url('layout/_main-layout.css');
+@import url('layout/_main_layout.css');
 /* @import url('layout/_grid.css'); */
 @import url('layout/_footer.css');
 
@@ -15,5 +15,3 @@
 @import url('components/_buttons.css');
 @import url('components/_forms.css');
 /* @import url('components/_cards.css'); */ 
-
-@import url('components/_theme-toggle.css');

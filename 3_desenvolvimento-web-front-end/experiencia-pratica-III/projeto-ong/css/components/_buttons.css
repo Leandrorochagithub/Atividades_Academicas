@@ -41,7 +41,7 @@ button[type="submit"]:active {
 /* Botão de suporte (Call to Action) */
 .btn-suporte {
     background-color: var(--cor-suporte);
-    color: var(--cor-texto-claro); /* Usa o texto escuro para contraste com o amarelo */
+    color: var(--cor-secundaria); /* Usa o texto escuro para contraste com o amarelo */
 }
 
 .btn-suporte:hover {

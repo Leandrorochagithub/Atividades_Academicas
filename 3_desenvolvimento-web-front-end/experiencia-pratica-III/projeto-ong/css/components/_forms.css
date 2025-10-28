@@ -8,7 +8,7 @@ form {
 }
 
 fieldset {
-    border: 1px solid #ddd;
+    border: none;
     border-radius: var(--border-radius);
     padding: var(--espaco-md);
     margin-bottom: var(--espaco-md);

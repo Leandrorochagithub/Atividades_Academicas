@@ -8,9 +8,25 @@ body {
 
 /* Um container para centralizar o conteúdo e limitar a largura em telas grandes, melhorando a leitura. */
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: var(--espaco-lg) 0; /* Espaçamento vertical */
+    min-width: 300px;
+    max-width: 1000px;
+    margin: var(--espaco-lg) auto;
+    padding-right: var(--espaco-lg);
+    padding-left: var(--espaco-lg);
+}
+
+#sessões-principais{
+    border: var(--cor-border-sessões-principais) solid 1px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--cor-fundo-sessões-principais);
+}
+
+#sub-sessões-principais{
+    border: var(--cor-border-sub-sessões-principais) solid 1px;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--cor-fundo-sub-sessões-principais);
 }
