@@ -55,7 +55,7 @@ O projeto está organizado com uma pasta raiz para cada fase, permitindo a avali
 
 1.  Clone este repositório:
     ```bash
-    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+    git clone https://github.com/Leandrorochagithub/atividades-academicas/tree/main/3_desenvolvimento-web-front-end)
     ```
 2.  Navegue até a pasta do projeto:
     ```bash
