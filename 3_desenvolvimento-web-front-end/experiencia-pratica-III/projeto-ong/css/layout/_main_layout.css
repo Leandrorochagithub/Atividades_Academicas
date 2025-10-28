@@ -10,8 +10,7 @@ body {
 .container {
     width: 90%;
     max-width: 1200px;
-    margin: var(--espaco-lg) auto;
-    padding-right: var(--espaco-lg); /* Espaçamento vertical */
-    padding-left: var(--espaco-lg);
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--espaco-lg) 0; /* Espaçamento vertical */
 }
-

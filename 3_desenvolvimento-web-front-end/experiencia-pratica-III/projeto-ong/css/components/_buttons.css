@@ -1,0 +1,53 @@
+/* OBJETIVO: Estilo de botões com estados */
+
+.btn,
+button[type="submit"] {
+    display: inline-block;
+    padding: var(--espaco-sm) var(--espaco-md);
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    font-size: var(--font-size-md);
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Requisito: "botões com estados visuais" */
+
+/* Estado HOVER: mouse em cima */
+.btn:hover,
+button[type="submit"]:hover {
+    background-color: var(--cor-secundaria);
+    transform: translateY(-2px); /* Efeito sutil de elevação */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estado FOCUS: selecionado via teclado (acessibilidade) */
+.btn:focus,
+button[type="submit"]:focus {
+    outline: 3px solid var(--cor-secundaria);
+    outline-offset: 2px;
+}
+
+/* Estado ACTIVE: enquanto está sendo clicado */
+.btn:active,
+button[type="submit"]:active {
+    transform: translateY(0);
+}
+
+/* Botão de suporte (Call to Action) */
+.btn-suporte {
+    background-color: var(--cor-suporte);
+    color: var(--cor-texto-claro); /* Usa o texto escuro para contraste com o amarelo */
+}
+
+.btn-suporte:hover {
+    background-color: #f3c12b; /* Um tom de amarelo um pouco mais escuro para o hover */
+}
+
+.btn-suporte:focus {
+    outline-color: var(--cor-suporte);
+}

@@ -1,82 +1,42 @@
-# PROJETO: Aplicação Web
+# Fase 2: Estilização Profissional com CSS3
 
-## Definição do problema
+Esta fase do projeto focou em aplicar CSS3 avançado para transformar a estrutura HTML da Fase 1 em uma interface visual profissional, responsiva e acessível.
 
-* Desenvolver uma plataforma web completa e profissional que permita a ONGs gerenciar suas atividades, divulgar projetos, captar recursos e engajar voluntários, aplicando, de forma integrada, todos os conceitos estudados nas quatro unidades da disciplina.. 
+## 🎯 Objetivo
 
-**Objetivos**
+* Transformar a estrutura HTML em uma interface visual profissional, responsiva e acessível.
+* Demonstrar domínio de leiautes modernos (Flexbox/Grid), sistemas de design e técnicas de estilização.
 
-* Esta segunda entrega concentra-se na aplicação de CSS3 para transformar a estrutura HTML da Entrega I em uma interface visual profissional, responsiva e acessível. 
+## 🛠️ Especificações Técnicas
 
+* **Sistema de Design:**
+    * Desenvolvimento de um `design system` consistente com **Variáveis CSS** (`:root`).
+    * Paleta de cores com 8+ cores (primárias, secundárias, neutras, sucesso, erro).
+    * Tipografia hierárquica (5+ tamanhos de fonte).
+    * Sistema de espaçamento modular (base 8px).
+* **CSS Modular:**
+    * Estrutura de pastas de CSS organizada (`base/`, `components/`, `layout/`).
+    * Todos os arquivos modulares são importados em um `style.css` principal.
+* **Leiautes Responsivos com Flexbox e Grid:**
+    * Layout principal da página implementado com **CSS Grid** (`display: grid; grid-template-rows: auto 1fr auto;`) para garantir que o rodapé fique no final, mesmo em páginas com pouco conteúdo.
+    * Uso de **Flexbox** para alinhamento de componentes internos (cabeçalho, rodapé, grupos de formulário).
+* **Componentes de Interface:**
+    * Botões com estados visuais (`:hover`, `:focus`, `:active`).
+    * Formulários estilizados com validação visual (usando pseudo-classes `:valid` e `:invalid`).
 
-**Especificações Técnicas**
+## 📄 Entregáveis
 
-* **Sistema de Design**
+* **Código Fonte Completo:** Todos os arquivos `html/`, `css/` e `imagens/` necessários para a Fase 2.
+* **Estrutura Modular de CSS:** Pastas de CSS organizadas por responsabilidade.
+* **HTML Atualizado:** Arquivos HTML da Fase 1 atualizados com as classes CSS necessárias.
 
-	- Desenvolver design system consistente com variáveis CSS customizadas;
+## 📚 Aprendizado
 
-	- Definir paleta de cores com no mínimo 8 cores (primárias, secundárias, neutras);
+* Criação de um Design System robusto com Variáveis CSS.
+* Estruturação de CSS de forma modular e escalável (BEMIT, ITCSS).
+* Combinação de CSS Grid e Flexbox para layouts modernos e resilientes.
+* Estilização de estados de componentes para melhor UX e acessibilidade.
 
-	- Estabelecer tipografia hierárquica com no mínimo 5 tamanhos de fonte;
+## 💻 Código
 
-	- Criar sistema de espaçamento modular (8px, 16px, 24px, 32px, 48px, 64px).
-
-* **Leiautes Responsivos com Flexbox e Grid**
-
-	- Implementar leiaute principal usando CSS grid para estrutura geral;
-
-	- Utilizar flexbox para componentes internos e alinhamentos;
-
-	- Criar no mínimo 5 breakpoints responsivos bem definidos;
-	
-	- Desenvolver sistema de grid customizado (12 colunas);
-	
-	- Implementar leiautes específicos para diferentes tipos de conteúdo.
-
-* **Navegação Sofisticada e Interativa**
-
-	- Criar menu principal responsivo com submenu dropdown;
-
-	- Implementar navegação mobile com menu hambúrguer.
-	
-* **Componentes de Interface**
-
-	- Desenvolver sistema de cards responsivos para projetos;
-
-	- Criar botões com estados visuais (hover, focus, active, disabled);
-	
-	- Implementar formulários estilizados com validação visual;
-	
-	- Desenvolver componentes de feedback (alerts, toasts, modals);
-	Criar sistema de badges e tags para categorização.
-	- 
-
-
-## Tecnologias utilizadas
-
-* Vs Code
-* Git
-
-## Linguagens
-
-* HTML
-* CSS
-
-## O que deverá ser Entrege nesta etapa
-
-* Código Fonte Completo
-
-- Estrutura de pastas organizada (pastas, HTML e imagens);
-- Estrutura modular de CSS.
-
-* Assets e Recursos
-
-## Estrutura básica
-
-
-<img width="508" height="421" alt="Captura de tela 2025-10-11 112942" src="https://github.com/user-attachments/assets/369a6c9f-6005-48aa-86b0-4d5cc5bcf1a8" />
-
-## Aprendizado
-
-* CSS3
-
+**Arquivo:** `experiencia-pratica-II\projeto-ong\html\index.html`
