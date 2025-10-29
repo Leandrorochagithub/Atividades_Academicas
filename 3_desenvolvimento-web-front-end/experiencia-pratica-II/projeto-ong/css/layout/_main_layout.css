@@ -13,9 +13,11 @@ body {
     margin: var(--espaco-lg) auto;
     padding-right: var(--espaco-lg);
     padding-left: var(--espaco-lg);
+    font-size: 5%vh;
 }
 
 #sessões-principais{
+    display: grid;
     border: var(--cor-border-sessões-principais) solid 1px;
     border-radius: 10px;
     margin-top: 20px;
@@ -24,6 +26,7 @@ body {
 }
 
 #sub-sessões-principais{
+    display: grid;
     border: var(--cor-border-sub-sessões-principais) solid 1px;
     border-radius: 10px;
     margin-top: 15px;

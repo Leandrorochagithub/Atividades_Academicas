@@ -19,6 +19,7 @@
 }
 
 .logo-link img {
+    display: block;
     width: 120px; /* Um tamanho bom para o logo */
 }
 
@@ -51,4 +52,23 @@
 /* Oculta o botão do menu hambúrguer por enquanto */
 .menu-hamburger {
     display: none; 
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Empilha logo e menu */
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+    
+    .main-nav ul {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .logo-link picture img {
+        width: 80px; /* Reduz um pouco em mobile */
+    }
 }
