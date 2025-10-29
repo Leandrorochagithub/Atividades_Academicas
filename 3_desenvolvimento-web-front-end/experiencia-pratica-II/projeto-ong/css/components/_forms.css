@@ -35,7 +35,8 @@ legend {
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group input[type="tel"],
-.form-group input[type="date"] {
+.form-group input[type="date"],
+.form-group select[type="text"] {
     width: 100%;
     padding: var(--espaco-sm);
     border: 1px solid #ccc;
