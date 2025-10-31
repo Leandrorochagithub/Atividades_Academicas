@@ -1,0 +1,64 @@
+/* * ARQUIVO: /base/_variables.css 
+ * OBJETIVO: Definir o Design System com suporte a Light/Dark Mode
+ */
+
+:root {
+    /* 1. PALETA DE CORES (MODO CLARO - PADRÃO) */
+    --cor-fundo-claro: #f8f9fa;     /* Fundo principal (quase branco) */
+    --cor-fundo-medio: #ffffff;     /* Fundo de 'cards' e 'containers' */
+    --cor-texto-principal: #343a40; /* Cinza escuro (para parágrafos) */
+    --cor-texto-claro: #f8f9fa;     /* Texto sobre fundos escuros (botões) */
+    
+    --cor-primaria: #0a4d68;     /* Azul escuro (original) */
+    --cor-secundaria: #088395;   /* Azul mais claro (original) */
+    --cor-suporte: #f5b700;      /* Amarelo/Laranja (original) */
+    
+    --cor-sucesso: #28a745;     /* Verde (original) */
+    --cor-erro: #dc3545;       /* Vermelho (original) */
+    --cor-fundo-secao-principal: #f0f8ff8b; /* Fundo leve para secao principais */
+    --cor-fundo-sub-secao: #f5b80008; /* Fundo leve para sub-secao principais */
+    --cor-border-secao-principal: lightblue; /* Borda para secao principais */
+    --cor-border-sub-secao: lightpink; /* Borda para
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    
+    /* 2. TIPOGRAFIA HIERÁRQUICA */
+    --font-size-xxl: clamp(2.5em, 5vw, 4em); /* Clamp para responsividade */
+    --font-size-xl: clamp(2em, 4vw, 3em);
+    --font-size-lg: clamp(1.5em, 3vw, 2.2em);
+    --font-size-md: 1.125em;
+    --font-size-sm: 0.9em;
+    --font-size-xs: 0.75em;
+
+    /* 3. SISTEMA DE ESPAÇAMENTO MODULAR */
+    --espaco-xs: 0.5em;  /* 8px */
+    --espaco-sm: 1em;    /* 16px */
+    --espaco-md: 1.5em;  /* 24px */
+    --espaco-lg: 2em;    /* 32px */
+    --espaco-xl: 3em;    /* 48px */
+    --espaco-xxl: 4em;   /* 64px */
+
+    /* Outras variáveis */
+    --border-radius: 4px;
+}
+
+/* ===================================================
+ * 1.1 PALETA DE CORES (MODO ESCURO) 
+ * =================================================== 
+ * estas variáveis vão sobrescrever as do :root.
+ */
+body[data-theme="dark"] {
+    --cor-fundo-claro: #1a202c;
+    --cor-fundo-medio: #2d3748;
+    --cor-texto-principal: #e2e8f0;
+    --cor-texto-claro: #1a202c; /* Texto para botões amarelos */
+    --cor-primaria: #4299e1;
+    --cor-secundaria: #38b2ac;
+    --cor-suporte: #facc15;
+    --cor-sucesso: #4ade80;
+    --cor-erro: #f87171;
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.81);
+    --cor-fundo-secao-principal: #2d37485b; /* Fundo leve para secao principais */
+    --cor-fundo-sub-secao: #facc150d; /* Fundo leve para sub-secao principais */
+    --cor-border-secao-principal: #4299e1; /* Borda para secao principais */
+    --cor-border-sub-secao: #facc15; /* Borda para sub-secao principais */
+}

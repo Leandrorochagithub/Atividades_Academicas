@@ -1,0 +1,49 @@
+/* OBJETIVO: Resetar estilos padrão do navegador*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não afetem o tamanho final */
+}
+
+body {
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-texto-principal);
+    line-height: 1.6; /* Melhora a legibilidade */
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%; /* Imagens responsivas por padrão */
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+ul {
+    list-style: none;
+}
+
+/* ===================================================
+ * FOCO DE ACESSIBILIDADE (WCAG 2.1)
+ * =================================================== */
+
+/* Remove o anel de foco padrão... */
+:focus {
+    outline: none;
+}
+
+/* * ...e adiciona um indicador de foco personalizado e acessível.
+ * :focus-visible é um seletor moderno que SÓ mostra o foco 
+ * quando o usuário está navegando pelo TECLADO (ex: Tab), 
+ * mas não quando ele clica com o MOUSE.
+ */
+:focus-visible {
+    outline: 3px solid var(--cor-primaria);
+    outline-offset: 3px; /* Um pequeno espaço entre o elemento e o anel */
+    border-radius: var(--border-radius);
+}

@@ -96,38 +96,5 @@
         <p>&copy; 2025 ONG Vidas Conectadas. Todos os direitos reservados.</p>
     </footer>
 
-    <script>
-        // Função para aplicar a máscara de CPF (000.000.000-00)
-        document.getElementById('cpf').addEventListener('input', function (e) {
-            // \D: "qualquer caractere que não seja um dígito numérico", \g: procure no texto inteiro e '': Significa "substitua por nada", ou seja, apague
-            let value = e.target.value.replace(/\D/g, ''); 
-
-            // (\d{3}): Encontre e guarde um grupo de 3 dígitos. (\d): encontre e guarde 1 dígito.
-            value = value.replace(/(\d{3})(\d)/, '$1.$2');
-
-            // $1: Insira aqui o que foi capturado no primeiro parêntese (os 3 dígitos). .: Insira o caractere de ponto. $2: Insira aqui o que foi capturado no segundo parêntese (o 1 dígito).
-            value = value.replace(/(\d{3})(\d)/, '$1.$2');
-
-            
-            value = value.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
-            e.target.value = value;
-        });
-
-        // Função para aplicar a máscara de Telefone ((00) 00000-0000)
-        document.getElementById('telefone').addEventListener('input', function (e) {
-            let value = e.target.value.replace(/\D/g, '');
-            value = value.replace(/^(\d{2})(\d)/g, '($1) $2');
-            value = value.replace(/(\d{5})(\d)/, '$1-$2');
-            e.target.value = value;
-        });
-
-        // Função para aplicar a máscara de CEP (00000-000)
-        document.getElementById('cep').addEventListener('input', function (e) {
-            let value = e.target.value.replace(/\D/g, '');
-            value = value.replace(/^(\d{5})(\d)/, '$1-$2');
-            e.target.value = value;
-        });
-    </script>
-
 </body>
 </html>

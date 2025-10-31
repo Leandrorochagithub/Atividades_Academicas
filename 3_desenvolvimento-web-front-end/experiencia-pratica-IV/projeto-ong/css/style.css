@@ -1,0 +1,19 @@
+/* OBJETIVO: Importar todos os módulos de CSS em ordem */
+
+/* 1. Base: Variáveis, Reset e Tipografia */
+@import url('base/_variables-minify.css');
+@import url('base/_reset-minify.css');
+@import url('base/_typography-minify.css');
+
+/* 2. Layout: Estrutura principal, Grid, Cabeçalho e Rodapé */
+@import url('layout/_main_layout-minify.css');
+/* @import url('layout/_grid.css'); */
+@import url('layout/_footer-minify.css');
+
+/* 3. Components: Peças reutilizáveis da interface */
+@import url('components/_header-minify.css');
+@import url('components/_buttons-minify.css');
+@import url('components/_forms-minify.css');
+/* @import url('components/_cards.css'); */ 
+
+@import url('components/_theme-toggle-minify.css');

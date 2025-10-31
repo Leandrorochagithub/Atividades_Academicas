@@ -1,0 +1,5 @@
+document.addEventListener('DOMContentLoaded',()=>{const themeToggle=document.getElementById('theme-toggle');const body=document.body;function setTheme(theme){if(theme==='dark'){body.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');if(themeToggle){themeToggle.innerHTML='<span aria-hidden="true">🌙</span>';themeToggle.setAttribute('aria-label','Mudar para tema claro')}}else{body.removeAttribute('data-theme');localStorage.setItem('theme','light');if(themeToggle){themeToggle.innerHTML='<span aria-hidden="true">☀️</span>';themeToggle.setAttribute('aria-label','Mudar para tema escuro')}}}
+function toggleTheme(){const currentTheme=localStorage.getItem('theme');const newTheme=(currentTheme==='light'||!currentTheme)?'dark':'light';setTheme(newTheme)}
+function loadTheme(){const savedTheme=localStorage.getItem('theme');const prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;if(savedTheme){setTheme(savedTheme)}else if(prefersDark){setTheme('dark')}else{setTheme('light')}}
+if(themeToggle){themeToggle.addEventListener('click',toggleTheme)}
+loadTheme()})
