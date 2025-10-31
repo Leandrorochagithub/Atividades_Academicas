@@ -1,0 +1,33 @@
+/* * ARQUIVO: /components/_theme-toggle.css 
+ * OBJETIVO: Estilo do botão de troca de tema
+ */
+
+.btn-theme {
+    /* Aparência */
+    background-color: var(--cor-fundo-medio);
+    color: var(--cor-primaria); /* Usa a cor primária para o ícone */
+    border: 2px solid var(--cor-primaria);
+    border-radius: 50%; /* Botão circular */
+    
+    /* Tamanho */
+    width: 45px;
+    height: 45px;
+    
+    /* Alinhamento do ícone (☀️/🌙) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    padding: 0;
+
+    /* Interação */
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-theme:hover,
+.btn-theme:focus-visible { /* :focus-visible é melhor para acessibilidade */
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo-claro); /* Cor do ícone no hover */
+    outline: none;
+}

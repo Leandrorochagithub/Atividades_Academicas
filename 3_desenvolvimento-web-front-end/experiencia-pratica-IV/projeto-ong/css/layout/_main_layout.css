@@ -16,20 +16,20 @@ body {
     font-size: 5%vh;
 }
 
-#sessões-principais{
+.secao-principal{
     display: grid;
-    border: var(--cor-border-sessões-principais) solid 1px;
+    border: var(--cor-border-secao-principal) solid 1px;
     border-radius: 10px;
     margin-top: 20px;
     padding: 10px;
-    background-color: var(--cor-fundo-sessões-principais);
+    background-color: var(--cor-fundo-secao-principal);
 }
 
-#sub-sessões-principais{
+.sub-secao{
     display: grid;
-    border: var(--cor-border-sub-sessões-principais) solid 1px;
+    border: var(--cor-border-sub-secao) solid 1px;
     border-radius: 10px;
     margin-top: 15px;
     padding: 8px;
-    background-color: var(--cor-fundo-sub-sessões-principais);
+    background-color: var(--cor-fundo-sub-secao);
 }

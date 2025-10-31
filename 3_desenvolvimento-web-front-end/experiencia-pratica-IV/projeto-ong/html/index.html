@@ -1,187 +1,112 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 
-
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>ONG Vidas Conectadas - Juntos por um Futuro Melhor</title>
-
     <meta name="description"
-
         content="Conheça a ONG Vidas Conectadas, nossos projetos de impacto social e como você pode fazer a diferença na vida de milhares de pessoas.">
-
     <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
 
-
-
     <link rel="stylesheet" href="../css/style.css">
-
 </head>
-
-
 
 <body>
 
-
-
     <header class="main-header">
-
-        <div class="container"> <a href="index.html" class="logo-link">
-
-                <img src="../imagens/logo.png" alt="Logo da ONG (planeta envolto por duas mãos)" width="100">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <picture>
+                    <img src="../imagens/logo.webp" alt="Logo da ONG (planeta envolto por duas mãos)" width="100">
+                </picture>
 
             </a>
 
-
-
             <nav class="main-nav" aria-label="Navegação principal">
-
                 <ul>
-
                     <li><a href="index.html" target="_self" rel="prev">Início</a></li>
-
                     <li><a href="projetos.html" target="_self" rel="prev">Projetos</a></li>
-
                     <li><a href="cadastros.html" target="_self">Seja um Voluntário</a></li>
-
                 </ul>
-
             </nav>
 
+            <button id="theme-toggle" class="btn-theme" aria-label="Mudar tema">
+                <span aria-hidden="true">☀️</span>
+            </button>
+
         </div>
-
     </header>
-
-
 
     <main class="container" aria-label="Conteúdo principal">
 
+        <section class="secao-principal" aria-labelledby="hero-title">
 
-
-        <section id="sessões-principais">
-
-            <h1>Transformando Vidas, Construindo o Futuro</h1>
-
+            <h1 id="hero-title">Transformando Vidas, Construindo o Futuro</h1>
             <p>Somos uma organização dedicada a criar oportunidades e promover o desenvolvimento social em comunidades
-
                 carentes.</p>
-
-            <img src="../imagens/imagem-principal.jpg"
-
-                alt="Crianças sorrindo e participando de uma atividade comunitária."
-
-                style="width:100%; border-radius: 8px;">
+            <picture>
+                <img src="../imagens/imagem-principal.webp"
+                    alt="Crianças sorrindo e participando de uma atividade comunitária."
+                    style="width:100%; border-radius: 8px;">
+            </picture>
 
         </section>
 
+        <section class="secao-principal" aria-labelledby="missao-title">
 
-
-        <section id="sessões-principais">
-
-            <h2>Nossa Missão</h2>
-
+            <h2 id="missao-title">Nossa Missão</h2>
             <p>A ONG Vidas Conectadas nasceu do sonho de conectar pessoas dispostas a ajudar com quem mais precisa.
-
                 Nossa missão é combater a desigualdade social através de projetos focados em educação, saúde e
-
                 desenvolvimento profissional, garantindo um futuro mais digno e justo para todos.</p>
-
             <p>Acreditamos no poder da colaboração e da empatia para gerar mudanças significativas e duradouras.</p>
-
         </section>
 
+        <section class="secao-principal" aria-labelledby="atuacao-title">
 
+            <h2 id="atuacao-title">Nossas Frentes de Atuação</h2>
 
-        <section id="sessões-principais">
+            <article class="sub-secao" aria-labelledby="educacao-title">
 
-            <h2>Nossas Frentes de Atuação</h2>
-
-
-
-            <article id="sub-sessões-principais">
-
-                <h3>Educação para Todos</h3>
-
+                <h3 id="educacao-title">Educação para Todos</h3>
                 <p>Oferecemos reforço escolar, cursos profissionalizantes e acesso à cultura para crianças e jovens,
-
                     abrindo portas para novas oportunidades.</p>
-
             </article>
 
-
-
-            <article id="sub-sessões-principais">
-
-                <h3>Saúde e Bem-Estar</h3>
-
+            <article class="sub-secao" aria-labelledby="saude-title">
+                <h3 id="saude-title">Saúde e Bem-Estar</h3>
                 <p>Promovemos campanhas de saúde, atendimento básico e apoio psicológico para garantir o bem-estar
-
                     físico e mental das comunidades assistidas.</p>
-
             </article>
 
-
-
-            <article id="sub-sessões-principais">
-
-                <h3>Geração de Renda</h3>
-
+            <article class="sub-secao" aria-labelledby="renda-title">
+                <h3 id="renda-title">Geração de Renda</h3>
                 <p>Capacitamos adultos com novas habilidades e apoiamos o empreendedorismo local para fomentar a
-
                     autonomia financeira das famílias.</p>
-
             </article>
-
         </section>
-
-
 
     </main>
 
-
-
-    <footer class="main-footer">
-
+    <footer class="main-footer" aria-labelledby="contato-title">
         <div class="container">
-
             <div>
-
-                <h2>Entre em Contato</h2>
-
+                <h2 id="contato-title">Entre em Contato</h2>
                 <address>
-
                     <p>Email: <a
-
                             href="mailto:contato@projetoficticiovidasconectadas.org">contato@projetoficticiovidasconectadas.org</a>
-
                     </p>
-
                     <p>Telefone: <a href="tel:+5511999998888">(61) 99999-8888</a></p>
-
                 </address>
-
             </div>
-
             <div>
-
                 <p>&copy; 2025 ONG Vidas Conectadas. Todos os direitos reservados.</p>
-
             </div>
-
         </div>
-
     </footer>
 
-
+    <script src="../javascript/main.js"></script>
 
 </body>
-
-
 
 </html>
